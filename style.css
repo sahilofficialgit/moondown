@@ -1,0 +1,374 @@
+@font-face {
+    font-family: sahil;
+    src: url(./NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+    font-family: sahil;
+    font-weight: 100;
+    src: url(./NeueHaasDisplayLight.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sahil;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    background-color: black;
+}
+
+.page1{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    padding: 0 2vw;
+}
+
+nav {
+    padding: 3vw 0vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-part2 {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+nav img {
+    height: 8vw;
+    width: 20vw;
+}
+
+.nav-part2 h4 {
+    padding: 10px 20px;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    transition: all ease 0.4s;
+    overflow: hidden;
+}
+
+.nav-part2 h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+
+}
+
+.nav-part2 h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
+}
+
+.nav-part2 h4 a{
+    text-decoration: none;
+    color: white;
+    z-index: 9;
+    position: relative;
+}
+
+.nav-part2 h4:hover a {
+    color: black;
+}
+
+.center {
+    height:70vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.735);
+    padding: 4vw 1.5vw;
+    margin-bottom: 5vw;
+}
+
+.left h3{
+    width: 25vw;
+    font-size: 1.8vw;
+    line-height: 2vw;
+}
+
+.center h1 {
+    font-size: 8.5vw;
+    line-height: 8.5vw;
+    text-align: right;
+}
+
+.page1 video {
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+}
+
+.hero-shape {
+    position: absolute;
+    width: 36vw;
+    height: 36vw;
+    right: 0;
+    top: 85vh;
+}
+
+.hero1{
+    height: 100%;
+    width: 100%;
+    background-color: #e200de;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    filter: blur(20px);
+}
+.hero2{
+    height: 30vw;
+    width: 30vw;
+    background-color: #e200de;
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(25px);
+    animation-name: move2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.hero3{
+    height: 30vw;
+    width: 30vw;
+    background-color: #e200de;
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(25px);
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move1 {
+    from {
+        transform: translate(15%, -15%);
+    }
+    to {
+        transform: translate(-15%, 15%);
+    }
+}
+@keyframes move2 {
+    from {
+        transform: translate(-15%, 25%);
+    }
+    to {
+        transform: translate(15%, -25%);
+    }
+}
+
+.page2 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+
+.moving-text{
+    display: flex;
+    padding: 6vw 2vw;
+    overflow-x: auto;
+}
+
+.moving-text::-webkit-scrollbar {
+    display: none;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    animation: anime 10s linear infinite;
+}
+
+.moving-text h1{
+    font-size: 9vw;
+}
+
+.dot {
+    height: 60px;
+    width: 60px;
+    background-color: #e200de;
+    border-radius: 50%;
+    margin: 0 2vw;
+}
+
+
+@keyframes anime {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(-100%);
+    }
+}
+
+.page2-bottom {
+    height: 80vh;
+    width: 100%;
+    padding: 4.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 9;
+}
+
+.page2-bottom h1 {
+    font-size: 4vw;
+    width: 60%;
+    line-height: 4vw;
+}
+
+.bottom-part2 {
+    width: 20%;
+}
+
+.bottom-part2 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.bottom-part2 p {
+    padding-top: 3vw;
+    font-weight: 100;
+    font-size: 1.3vw;
+}
+
+.page2 .gooey {
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    background-color: #f175e4;
+    border-radius: 50%;
+    top: 60%;
+    left: 25%;
+    filter: blur(25px);
+    position: absolute;
+}
+
+.gooey1{
+    height: 25vw;
+    width: 25vw;
+    background-color: rgba(246, 52, 243, 0.973);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.gooey2{
+    height: 30vw;
+    width: 30vw;
+    background-color: #e900e5;
+    border-radius: 50%;
+    animation: anime1  3.5s linear infinite alternate;
+}
+
+@keyframes anime1 {
+    from {
+        transform: translate(0, -5%);
+    }
+    to {
+        transform: translate(-15%, 20%);
+    }
+}
+
+.page3 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding: 6vw 0;
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    padding: 3vw 3vw;
+    gap: 1vw;
+}
+
+.projects .dot2{
+    height: 1vw;
+    width: 1vw;
+    background-color: #e200de;
+    border-radius: 50%;
+}
+
+.projects h6 {
+    font-weight: 100;
+    font-size: 1.2vw;
+    word-spacing: 0.5vw;
+}
+
+.elem {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 3vw;
+    border-top: 1px solid grey;
+    overflow: hidden;
+}
+
+.elem h1 {
+    font-size: 3.5vw;
+    position: relative;
+    z-index: 9;
+}
+
+.elem:hover h1 {
+    color: black;
+}
+
+.elem .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #ff73fd;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    transition: all ease 0.3s;
+}
+
+.elem:hover .overlay{
+    top: 0;
+}
+
+.fixed-image {
+    height: 28vw;
+    width: 22vw;
+    display: none;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 99;
+    left: 60%;
+    top: 25%;
+    background-size: cover;
+    background-position: center;
+}
