@@ -372,3 +372,22 @@ nav img {
     background-size: cover;
     background-position: center;
 }
+
+.page4 {
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: #fff; */
+}
+
+.proj {
+    padding: 0 3vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.proj h4 {
+    padding: 15px 30px;
+    border: 1.5px solid #fff;
+    border-radius: 50px;
+}
