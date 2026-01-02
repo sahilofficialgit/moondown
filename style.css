@@ -390,4 +390,34 @@ nav img {
     border: 1.5px solid #fff;
     border-radius: 50px;
     position: relative;
+    overflow: hidden;
+}
+
+.proj h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+
+.proj h4:hover::after {
+    left: 0;
+    bottom: 0;
+    border-radius: 0;
+}
+
+.proj h4 a {
+    text-decoration: none;
+    z-index: 9;
+    color: white;
+    position: relative;
+}
+
+.proj h4:hover a {
+    color: black;
 }
