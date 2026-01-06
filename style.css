@@ -463,7 +463,7 @@ nav img {
     height: 100%;
     width: 100%;
     background-size: cover;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .page4-bottom .left-part1 {
@@ -506,6 +506,26 @@ nav img {
     height: 80vh;
     width: 100%;
     padding: 5vw 1vw;
+}
+
+.pg5-heading {
+    display: flex;
+    align-items: center;
+    padding: 4vw 4vw;
+    gap: 1.5vw;
+}
+
+.page5 .pg5-heading .pg5-dot {
+    height: 1vw;
+    width: 1vw;
+    background-color: #e200de;
+    border-radius: 50%;
+}
+
+.page5 .pg5-heading h6 {
+    font-weight: 100;
+    font-size: 1.2vw;
+    word-spacing: 0.2vw;
 }
 
 .swiper {
