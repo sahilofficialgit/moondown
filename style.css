@@ -466,7 +466,14 @@ nav img {
     padding-bottom: 3vw;
 }
 
-.page4-bottom .left-part1 h1 {
+.page4-bottom .left-part1 .design {
+    font-size: 5vw;
+    color: #FFFFFF;
+    padding-left: 2.5vw;
+    border-left: 2px solid red;
+    cursor: pointer;
+}
+.page4-bottom .left-part1 .project {
     font-size: 5vw;
     color: #5a5656a9;
     padding-left: 1vw;
@@ -474,16 +481,20 @@ nav img {
     cursor: pointer;
 }
 
+.page4-bottom .left-part1 .execution {
+    font-size: 5vw;
+    color: #5a5656a9;
+    padding-left: 1vw;
+    border-left: 2px solid red;
+    cursor: pointer;
+}
+
+
 .page4-bottom .left p {
     font-weight: 100;
     width: 100%;
     text-align: left;
     font-size: 1.4vw;
-}
-
-.page4-bottom .left-part1 .design {
-    color: #fff;
-    padding-left: 2.5vw;
 }
 
 .page5 {

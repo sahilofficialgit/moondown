@@ -30,14 +30,11 @@ var swiper = new Swiper(".mySwiper", {
     });
 
 
-var designPart = document.querySelector(".left-part1 h1")
-var projectPart = document.querySelector(".left-part1 h1")
-var executionPart = document.querySelector(".left-part1 h1")
 
-var designbtn = document.querySelector(".left-part1 design")
-var projectbtn = document.querySelector(".left-part1 project")
-var executionbtn = document.querySelector(".left-part1 execution")
 
+var designbtn = document.querySelector(".design")
+var projectbtn = document.querySelector(".project")
+var executionbtn = document.querySelector(".execution")
 
 
 function designFunc() {
@@ -47,6 +44,13 @@ function designFunc() {
 
     var designImg = document.querySelector(".changing-img")
     designImg.src = "images/design-img.webp"
+
+    projectbtn.style.paddingLeft = "1vw"
+    projectbtn.style.color = "#5a5656a9"
+    designbtn.style.paddingLeft = "2.5vw"
+    designbtn.style.color = "#FFFFFF"
+    executionbtn.style.paddingLeft = "1vw"
+    executionbtn.style.color = "#5a5656a9"
 
 }
 
@@ -58,6 +62,13 @@ function projectFunc() {
     var projectimg = document.querySelector(".changing-img")
     projectimg.src = "images/project-img.webp"
 
+    projectbtn.style.paddingLeft = "2.5vw"
+    projectbtn.style.color = "#FFFFFF"
+    designbtn.style.paddingLeft = "1vw"
+    designbtn.style.color = "#5a5656a9"
+    executionbtn.style.paddingLeft = "1vw"
+    executionbtn.style.color = "#5a5656a9"
+
 }
 
 function executionFunc() {
@@ -68,6 +79,11 @@ function executionFunc() {
     var executionimg = document.querySelector(".changing-img")
     executionimg.src = "images/execution-img.webp"
     
+    projectbtn.style.paddingLeft = "1vw"
+    projectbtn.style.color = "#5a5656a9"
+    designbtn.style.paddingLeft = "1vw"
+    designbtn.style.color = "#5a5656a9"
+    executionbtn.style.paddingLeft = "2.5vw"
+    executionbtn.style.color = "#FFFFFF"
 }
-
 
