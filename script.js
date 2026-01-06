@@ -45,10 +45,10 @@ function designFunc() {
     var designImg = document.querySelector(".changing-img")
     designImg.src = "images/design-img.webp"
 
-    projectbtn.style.paddingLeft = "1vw"
-    projectbtn.style.color = "#5a5656a9"
     designbtn.style.paddingLeft = "2.5vw"
     designbtn.style.color = "#FFFFFF"
+    projectbtn.style.paddingLeft = "1vw"
+    projectbtn.style.color = "#5a5656a9"
     executionbtn.style.paddingLeft = "1vw"
     executionbtn.style.color = "#5a5656a9"
 
@@ -62,10 +62,10 @@ function projectFunc() {
     var projectimg = document.querySelector(".changing-img")
     projectimg.src = "images/project-img.webp"
 
-    projectbtn.style.paddingLeft = "2.5vw"
-    projectbtn.style.color = "#FFFFFF"
     designbtn.style.paddingLeft = "1vw"
     designbtn.style.color = "#5a5656a9"
+    projectbtn.style.paddingLeft = "2.5vw"
+    projectbtn.style.color = "#FFFFFF"
     executionbtn.style.paddingLeft = "1vw"
     executionbtn.style.color = "#5a5656a9"
 
