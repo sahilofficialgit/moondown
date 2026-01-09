@@ -589,3 +589,23 @@ nav img {
     font-size: 20.2vw;
     color: black;
 }
+
+.loader {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    transition: all ease 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader h1 {
+    font-size: 7vw;
+    background: linear-gradient(to right, purple, white);
+    color: transparent;
+    -webkit-background-clip: text;
+}
