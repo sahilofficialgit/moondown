@@ -33,6 +33,7 @@ html, body {
     border-radius: 50%;
     z-index: 99;
     position: fixed;
+    opacity: 0;
 }
 
 .page1{
