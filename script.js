@@ -7,7 +7,7 @@ var center = document.querySelector(".center")
 var video = document.querySelector(".video")
 var page2 = document.querySelector(".page2")
 var page3 = document.querySelector(".page3")
-
+var page4 = document.querySelector(".page4")
 var page5 = document.querySelector(".page5")
 var page6 = document.querySelector(".page6")
 var cursor = document.querySelector(".cursor")
@@ -44,6 +44,19 @@ page3.addEventListener("mousemove",function(dets){
         x:dets.x,
         y:dets.y,
         duration: 0.6
+    })
+})
+
+page4.addEventListener("mouseenter", function(){
+    gsap.to(".cursor",{
+        duration: 1,
+        opacity: 0,
+    })
+})
+page4.addEventListener("mouseleave", function(){
+    gsap.to(".cursor",{
+        duration: 1,
+        opacity: 1,
     })
 })
 
