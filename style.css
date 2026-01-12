@@ -736,3 +736,17 @@ nav img {
     }
 }
 
+
+input {
+    width: 100%;
+    padding: 0.7vw;
+    border: none;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border-radius: 5px;
+    margin-top: 2vw;
+}
+
+input::placeholder{
+    color: rgb(255, 255, 255);
+}
