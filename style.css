@@ -575,7 +575,7 @@ nav img {
 
 .page6 .left {
     /* background-color: red; */
-    font-size: 2.5vw;
+    font-size: 3vw;
     z-index: 90;
     
 }
@@ -588,7 +588,7 @@ nav img {
 .page6 .right p{
     color: black;
     font-weight: 100;
-    font-size: 1.5vw;
+    font-size: 2vw;
     z-index: 99;
 }
 
@@ -739,7 +739,7 @@ nav img {
 
 input {
     width: 100%;
-    padding: 0.7vw;
+    padding: 1vw;
     border: none;
     background-color: rgb(20, 20, 20);
     color: white;
@@ -748,5 +748,8 @@ input {
 }
 
 input::placeholder{
-    color: rgb(255, 255, 255);
+    color: rgb(185, 185, 185);
+    word-spacing: 0.1vw;
+    padding-left: 1vw;
+    font-size: 1.2vw;
 }
