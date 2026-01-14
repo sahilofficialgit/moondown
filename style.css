@@ -63,6 +63,10 @@ nav img {
     width: 17vw;
 }
 
+nav h3 {
+    display: none;
+}
+
 .nav-part2 h4 {
     padding: 10px 20px;
     border: 1.5px solid rgb(255, 255, 255);
@@ -753,3 +757,30 @@ input::placeholder{
     padding-left: 1vw;
     font-size: 1.2vw;
 }
+
+
+@media (max-width:600px) {
+    .page1{
+    min-height: 100vh;
+    width: 100%;
+    padding: 1vw 5vw;
+    }
+
+    nav {
+        padding: 8vw 0vw;
+    }
+
+    .nav-part2 {
+        display: none;
+    }
+
+    nav h3 {
+    display: block;
+    padding: 1px solid #b4b2b2;
+    border-radius: 50px;
+}
+
+    nav img {
+        height: 11vh;
+        width: 25vw;
+    }
