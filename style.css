@@ -778,9 +778,12 @@ input::placeholder{
     display: block;
     padding: 1px solid #b4b2b2;
     border-radius: 50px;
+    padding: 2vw 4vw;
+    border:  1px solid grey;
 }
 
     nav img {
         height: 11vh;
         width: 25vw;
     }
+}
