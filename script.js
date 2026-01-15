@@ -172,3 +172,11 @@ setTimeout(function(){
     loader.style.top = "-100%"
 },3200)
 
+var full = document.querySelector(".full-scr")
+var menu = document.querySelector("nav h3")
+var navimg = document.querySelector("nav img")
+
+menu.addEventListener("click",function(){
+    full.style.top = 0;
+    navimg.style.opacity = 
+})
