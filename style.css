@@ -767,7 +767,15 @@ input::placeholder{
     position: fixed;
     z-index: 99;
     top: -100%;
-    transition: all ease 0.7s;
+    transition: all ease 0.5s;
+}
+
+.full-div1 {
+    height: 50%;
+    width: 100%;
+    background-color: #000000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 
@@ -795,6 +803,7 @@ input::placeholder{
     font-size: 4vw;
     font-weight: 200;
     padding-left: 11vw;
+    z-index: 120;
     }
 
     nav img {
