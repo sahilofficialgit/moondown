@@ -775,11 +775,12 @@ input::placeholder{
     .page1{
     min-height: 100vh;
     width: 100%;
-    padding: 1vw 5vw;
+    padding: 0vw 0vw;
     }
 
     nav {
-        padding: 8vw 0vw;
+        padding: 8vw 5vw;
+        background-color: #000000;
     }
 
     .nav-part2 {
@@ -794,7 +795,7 @@ input::placeholder{
     font-size: 4vw;
     font-weight: 200;
     padding-left: 11vw;
-}
+    }
 
     nav img {
         height: 11vh;
