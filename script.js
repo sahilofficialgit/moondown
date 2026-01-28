@@ -175,16 +175,21 @@ setTimeout(function(){
 var full = document.querySelector(".full-scr")
 var menu = document.querySelector("nav h3")
 var navimg = document.querySelector("nav img")
+var menuIcon = document.querySelector(".menu img")
 var flag = 0
 
 menu.addEventListener("click",function(){
     if(flag == 0){
     full.style.top = 0;
     navimg.style.opacity = 0
+    menuIcon.style.transform = "rotate(180deg)";
+    menuIcon.src = "images/close-line.svg";
     flag = 1
     } else {
-        full.style.top = "-100%"
+        full.style.top = "-140%"
         navimg.style.opacity = 1
+        menuIcon.style.transform = "rotate(0deg)";
+        menuIcon.src = "images/menu-2-line.svg"
         flag = 0
     }
 })
