@@ -577,7 +577,7 @@ nav h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 11vw 5.5vw;
+    padding: 7vw 5.5vw;
     z-index: 80;
 }
 
@@ -609,7 +609,7 @@ nav h3 {
     color: black;
     z-index: 80;
     position: absolute;
-    bottom: 2.70vw;
+    bottom: 4vw;
 }
 
 .loader {
@@ -676,6 +676,7 @@ input::placeholder{
     word-spacing: 0.1vw;
     padding-left: 1vw;
     font-size: 1.2vw;
+    font-weight: 100;
 }
 
 .full-scr {
@@ -703,7 +704,26 @@ input::placeholder{
 footer {
     height: 18vh;
     width: 100%;
-    background-color: #000000;
+    padding: 0 2vw;
+    /* background-color: #C12AC3; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .foot-con {
+    height: 10vh;
+    width: 100%;
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-top: 1px solid grey;
+}
+.foot-con h4 {
+    font-weight: 100;
 }
 
 
@@ -752,6 +772,19 @@ footer {
         padding: 1vw 2vw;
         color: white;
         transition: transform 0.5s ease;
+    }
+
+    .full-div1 {
+        height: 50%;
+        display: flex;
+        align-items: top;
+        justify-content: flex-end;
+        padding-bottom: 7vw;
+    }
+
+    .full-div1 h2 {
+        font-size: 13vw;
+        padding: 1.7vw 5vw;
     }
 
     nav img {
