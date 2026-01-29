@@ -1360,7 +1360,7 @@ footer .foot-con {
         text-decoration: none;
     }
 
-    .foot-con .city, .insta {
+    .foot-con .city, {
         display: none;
     }
 
