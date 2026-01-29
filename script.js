@@ -46,11 +46,17 @@ page2.addEventListener("mousemove",function(dets){
     })
 })
 
-page3.addEventListener("mousemove",function(dets){
+page3.addEventListener("mouseenter", function(){
     gsap.to(".cursor",{
-        x:dets.x,
-        y:dets.y,
-        duration: 0.6
+        duration: 1,
+        opacity: 0,
+    })
+})
+
+page3.addEventListener("mouseleave", function(){
+    gsap.to(".cursor",{
+        duration: 1,
+        opacity: 1,
     })
 })
 
