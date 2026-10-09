@@ -3,6 +3,13 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
+// Yeh fix ensure karta hai ki page aur images load hone ke baad Locomotive Scroll poori height read kar sake
+window.addEventListener("load", function () {
+    setTimeout(function () {
+        scroll.update();
+    }, 500);
+});
+
 var center = document.querySelector(".center")
 var video = document.querySelector(".video")
 var page2 = document.querySelector(".page2")
